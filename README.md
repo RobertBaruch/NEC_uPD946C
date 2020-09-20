@@ -32,7 +32,7 @@ The chip contains an oscillator with an internal resistor. The timing of the osc
 
 ![Monroe 98 calculator](https://raw.githubusercontent.com/RobertBaruch/NEC_uPD946C/master/monroe98.jpg)
 
-The calculator chip was removed from a Monroe model 98 handheld calculator. For the schematic of this calculator, see monroe98_schematic.pdf.
+The calculator chip was removed from a Monroe model 98 handheld calculator. For the schematic of this calculator, see [Monroe 98 schematic](https://raw.githubusercontent.com/RobertBaruch/NEC_uPD946C/master/monroe98_schematic.pdf).
 
 The display is a 9-digit vacuum fluorescent display manufactured by Futaba. Each digit has the usual 7 segments, plus a decimal point.
 
