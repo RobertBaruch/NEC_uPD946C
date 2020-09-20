@@ -1,6 +1,6 @@
 # NEC_uPD946C
 
-![Die image](https://https://github.com/RobertBaruch/NEC_uPD946C/blob/master/thumb.jpg)
+![Die image](https://raw.githubusercontent.com/RobertBaruch/NEC_uPD946C/master/thumb.jpg)
 
 Die images of the NEC uPD946C calculator chip, presumed to be from 1982.
 
@@ -20,7 +20,7 @@ You can use these images to develop stitching algorithms, or test your stitching
 
 ## Technology
 
-![Chip marking](https://https://github.com/RobertBaruch/NEC_uPD946C/blob/master/chip_marking.jpg)
+![Chip marking](https://raw.githubusercontent.com/RobertBaruch/NEC_uPD946C/master/chip_marking.jpg)
 
 The chip consists solely of PMOS. The feature size appears to be 2.5um. Gates seem to be measured in increments of this amount.
 
@@ -30,13 +30,13 @@ The chip contains an oscillator with an internal resistor. The timing of the osc
 
 ## External circuit
 
-![Monroe 98 calculator](https://https://github.com/RobertBaruch/NEC_uPD946C/blob/master/monroe98.jpg)
+![Monroe 98 calculator](https://raw.githubusercontent.com/RobertBaruch/NEC_uPD946C/master/monroe98.jpg)
 
 The calculator chip was removed from a Monroe model 98 handheld calculator. For the schematic of this calculator, see monroe98_schematic.pdf.
 
 The display is a 9-digit vacuum fluorescent display manufactured by Futaba. Each digit has the usual 7 segments, plus a decimal point.
 
-![Vacuum fluorescent display](https://https://github.com/RobertBaruch/NEC_uPD946C/blob/master/vfd.jpg)
+![Vacuum fluorescent display](https://raw.githubusercontent.com/RobertBaruch/NEC_uPD946C/master/vfd.jpg)
 
 The power supply is a blocking oscillator with additional stuff. It generates the voltages for the chip (VDD, VGG) plus the VFD cathode/filament voltage of 3.5 VAC and VFD anode/grid voltage of -28v (VLL).
 
