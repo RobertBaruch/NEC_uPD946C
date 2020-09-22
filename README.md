@@ -54,7 +54,7 @@ The keyboard matrix is as follows:
 | SEGA | =  |SQRT| 1
 | SEGB | M+ | RM | 2
 | SEGC | M- | CM | 3
-| SEGD | +  |    | 4
+| SEGD | +  | (pi)   | 4
 | SEGE | -  | +/-| 5
 | SEGF | DIV| 1/x| 6
 | SEGG | x  |x<sup>2</sup> | 7
@@ -63,8 +63,9 @@ The keyboard matrix is as follows:
 | VSS  | %  | C  | 0
 
 
-The three missing elements in the keyboard matrix may or may not have a function. Interestingly, one of the matrix
-rows is fixed to VSS.
+The two missing elements in the keyboard matrix may or may not have a function. SEGD/K5 is presumed to be pi, because of the way the BMB 80MF calculator is designed (see below).
+
+Interestingly, one of the matrix rows is fixed to VSS.
 
 The keyboard also has a switch which switches VSS.
 
@@ -106,6 +107,6 @@ Pin 15 may or may not have a function.
 
 ## Pi
 
-The [BMB 80MF calculator](http://mycalcdb.free.fr/main.php?l=0&id=123) is based around the same uPD946C chip. It has an F key for function, and F-TIMES is x<sup>2</sup>, F-DIV is 1/x, F-MINUS is +/-, F-EQUALS is SQRT, and F-PLUS is pi. This implies that the uPD946C has pi available as a constant, but is simply not accessible in the Monroe 98 calculator.
+The [BMB 80MF calculator](http://mycalcdb.free.fr/main.php?l=0&id=123) is based around the same uPD946C chip. It has an F key for function, and F-TIMES is x<sup>2</sup>, F-DIV is 1/x, F-MINUS is +/-, F-EQUALS is SQRT, and F-PLUS is pi. This implies that the uPD946C has pi available as a constant, but is simply not accessible in the Monroe 98 calculator without modifying the keyboard matrix.
 
-It is also interesting that some functions are accessed via two keypresses: the F key followed by another key.
+I found it interesting that some functions are accessed via two keypresses: the F key and another key. Since these correspond exactly with the K5 kyboard column in the Monroe 98, I presume that one of the missing functions, SEGD/K5, is pi.
