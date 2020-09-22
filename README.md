@@ -32,7 +32,14 @@ The chip contains an oscillator with an internal resistor. The timing of the osc
 
 ![Monroe 98 calculator](https://raw.githubusercontent.com/RobertBaruch/NEC_uPD946C/master/monroe98.jpg)
 
-The calculator chip was removed from a Monroe model 98 handheld calculator. For the schematic of this calculator, see [`monroe98_schematic.pdf`](https://raw.githubusercontent.com/RobertBaruch/NEC_uPD946C/master/monroe98_schematic.pdf).
+According to [MyCalcDB](http://mycalcdb.free.fr), the uPD946C chip was used in various calculators:
+* [BMB 80MF](http://mycalcdb.free.fr/main.php?l=0&id=123)
+* [Canon Palmtronic 8](http://mycalcdb.free.fr/main.php?l=0&id=248) (some models)
+* [Brother 518E](http://mycalcdb.free.fr/main.php?l=0&id=190)
+* [Panasonic 8501](https://vintage-technology.club/pages/calculators/p/panasonic8501.htm)
+* and many more.
+
+My uPD946C calculator chip was removed from a Monroe model 98 handheld calculator. For the schematic of this calculator, see [`monroe98_schematic.pdf`](https://raw.githubusercontent.com/RobertBaruch/NEC_uPD946C/master/monroe98_schematic.pdf).
 
 The display is a 9-digit vacuum fluorescent display manufactured by Futaba. Each digit has the usual 7 segments, plus a decimal point.
 
@@ -54,7 +61,7 @@ The keyboard matrix is as follows:
 | K8   | .  |    | 8
 | SEGP | CE |    | 9
 | VSS  | %  | C  | 0
-|
+
 
 The three missing elements in the keyboard matrix may or may not have a function. Interestingly, one of the matrix
 rows is fixed to VSS.
@@ -93,6 +100,12 @@ The keyboard also has a switch which switches VSS.
 | 26   | VDD (-5v)
 | 27   | VGG (-10v)
 | 28   | EXT_C (external timing capacitor for clock)
-|
+
 
 Pin 15 may or may not have a function.
+
+## Pi
+
+The [BMB 80MF calculator](http://mycalcdb.free.fr/main.php?l=0&id=123) is based around the same uPD946C chip. It has an F key for function, and F-TIMES is x<sup>2</sup>, F-DIV is 1/x, F-MINUS is +/-, F-EQUALS is SQRT, and F-PLUS is pi. This implies that the uPD946C has pi available as a constant, but is simply not accessible in the Monroe 98 calculator.
+
+It is also interesting that some functions are accessed via two keypresses: the F key followed by another key.
